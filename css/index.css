@@ -10,11 +10,13 @@
 }
 
 * {
+     
   box-sizing: border-box;
 }
-html,
-body {
-  padding: 0;
+
+html, body::selection {
+     background: #8ebf42;
+       padding: 0;
   margin: 0;
   font-family: system-ui, sans-serif;
   color: var(--darkgray);
